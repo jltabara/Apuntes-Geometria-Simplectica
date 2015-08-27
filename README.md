@@ -1,4 +1,4 @@
-# Apuntes-Geometria-Simplectica
+# Apuntes de Geometria Simplectica
 
 Apuntes de Geometría Simpléctica. Formato LaTeX
 
