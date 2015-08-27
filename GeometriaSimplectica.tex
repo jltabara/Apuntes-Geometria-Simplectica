@@ -5,6 +5,7 @@
 \usepackage{indentfirst} %%%%%%%%%%%%%%%%Crear un indent al principio
 \usepackage[latin1]{inputenc}%%%%%%%%%%%%ñ y acentos
 \usepackage{amstext}%%%%%%%%
+\usepackage{makeidx}
 \usepackage{amsfonts}%%%%%%%
 \usepackage{amssymb}%%%%%%%% AMSLaTeX
 \usepackage{amscd}%%%%%%%%%%
@@ -101,7 +102,7 @@
 \DeclareMathOperator{\ad}{ad}  %%% Traza de un endomorfismo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\makeindex
 
 %%%%%%%%%%%%%%%%%
 \title{Geometría Simpléctica}
@@ -5066,7 +5067,16 @@ Esto que hemos definido no es otra cosa que una {\sf isotopía local}.\index{isot
 
 \end{itemize}
 
+\newpage
 
+\printindex
+
+\nocite{*}
+
+\newpage
+
+\bibliographystyle{plain}
+\bibliography{Simplectica.bib}
 
 
 
